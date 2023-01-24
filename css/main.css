@@ -4,27 +4,42 @@
 html {font-size: 100%;} /*16px*/
 
 body {
-  background-color: #b09bbd;
-  color: #181354;
+  background-color: #f2f2f2;
+  color: #9a99a4;
   margin: 0;
   padding: 50px;
   line-height: 1.75;
 }
 h1 {
-
+  color: #181354;
   font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {font-size: 3em;
-
+  margin-bottom: 0;
 }
 
-h4 {font-size: 1.5em;
-margin-top: 0;
-
+h4 {font-size: 1em;
+  color: #9a99a4;
+  
+  margin-top: 0;
 }
 
 dt {
 	font-size: 2em;
 	font-weight: bold;
+}
+
+ul {
+  margin-top: 0;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: pink;
 }
