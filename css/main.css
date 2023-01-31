@@ -1,35 +1,111 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html {font-size: 100%;} /*16px*/
+@font-face {
+  font-family: "Redaction";
+  src: url(../otf/Redaction-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction-Italic";
+  src: url(../otf/Redaction-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction-Bold";
+  src: url(../otf/Redaction-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction35";
+  src: url(../otf/Redaction35-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction35-Italic";
+  src: url(../otf/Redaction35-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction35-Bold";
+  src: url(../otf/Redaction35-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction50";
+  src: url(../otf/Redaction50-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction50-Italic";
+  src: url(../otf/Redaction50-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction50-Bold";
+  src: url(../otf/Redaction50-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction100";
+  src: url(../otf/Redaction100-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Redaction100-Bold";
+  src: url(../otf/Redaction100-Bold.otf) format("opentype");
+}
+
+.Ideas-H1 {
+  font-family: "Redaction50-Italic";
+}
+
+html {
+  font-size: 100%;
+  font-family: "Redaction50";
+  font-weight: 400;
+} /*16px*/
 
 body {
-  background-color: #f2f2f2;
-  color: #9a99a4;
+  background-color: #221e1a;
+  color: #817f89;
   margin: 0;
   padding: 50px;
   line-height: 1.75;
 }
+
 h1 {
-  color: #181354;
-  font-size: 5em;
+  color: #566b5a;
+  font-size: 4em;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 60px;
+  font-family: "Redaction-Bold";
+  font-weight: 400;
 }
 
-h2 {font-size: 3em;
+h2 {
+  font-size: 3em;
   margin-bottom: 0;
+  color: #938c85;
+  font-family: "Redaction50-Bold";
+  font-weight: 400;
 }
 
-h4 {font-size: 1em;
-  color: #9a99a4;
-  
+h4 {
+  font-size: 1.5em;
+  color: #b4ada2;
   margin-top: 0;
+  font-family: "Redaction100-Bold";
+  font-weight: 400;
 }
 
 dt {
-	font-size: 2em;
-	font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
+  color: #938c85;
+  font-family: "Redaction";
+  font-weight: 400;
 }
 
 ul {
@@ -37,9 +113,9 @@ ul {
 }
 
 a:link {
-  color: pink;
+  color: rgb(185, 150, 156);
 }
 
 a:visited {
-  color: pink;
+  color: rgb(185, 150, 156);
 }
