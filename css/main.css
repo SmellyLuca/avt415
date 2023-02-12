@@ -56,6 +56,19 @@
   src: url(../otf/Redaction100-Bold.otf) format("opentype");
 }
 
+div {
+  display: block;
+  float: left;
+}
+
+.exercise_div {
+  width: 50%;
+}
+
+.project_div {
+  width: 50%;
+}
+
 .Ideas-H1 {
   font-family: "Redaction50-Italic";
 }
@@ -67,18 +80,18 @@ html {
 } /*16px*/
 
 body {
-  background-color: #221e1a;
+  background-color: #ede3d9;
   color: #817f89;
   margin: 0;
-  padding: 50px;
+  padding: 10%;
   line-height: 1.75;
 }
 
 h1 {
   color: #566b5a;
-  font-size: 4em;
+  font-size: 6em;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   line-height: 60px;
   font-family: "Redaction-Bold";
   font-weight: 400;
@@ -106,10 +119,23 @@ dt {
   color: #938c85;
   font-family: "Redaction";
   font-weight: 400;
+  margin-left: 10%;
+}
+
+li::marker {
+  content: none;
+}
+
+li:before {
+  content: "+";
+  margin-right: 15px;
+  font-weight: bolder;
 }
 
 ul {
   margin-top: 0;
+  margin-left: 10px;
+  padding: 0;
 }
 
 a:link {
