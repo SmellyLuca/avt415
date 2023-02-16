@@ -73,6 +73,31 @@ div {
   font-family: "Redaction50-Italic";
 }
 
+.usc-body {
+  width: 50%;
+  margin: auto;
+}
+
+.usc-h2 {
+  background-color: #938c85;
+  color: #ede3d9;
+  border-radius: 10px;
+  font-size: 2em;
+  display: inline;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.usc-actor {
+  font-size: 2em;
+  margin-top: 0;
+  line-height: 1em;
+}
+
+.usc-p {
+  margin-top: 0;
+}
+
 html {
   font-size: 100%;
   font-family: "Redaction50";
@@ -89,10 +114,10 @@ body {
 
 h1 {
   color: #566b5a;
-  font-size: 6em;
+  font-size: 4em;
   margin-top: 0;
   margin-bottom: 10px;
-  line-height: 60px;
+  line-height: 1em;
   font-family: "Redaction-Bold";
   font-weight: 400;
 }
@@ -113,13 +138,31 @@ h4 {
   font-weight: 400;
 }
 
+p {
+  font-family: "Redaction";
+}
+
 dt {
   font-size: 2em;
   font-weight: bold;
   color: #938c85;
   font-family: "Redaction";
   font-weight: 400;
-  margin-left: 10%;
+  margin-left: 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+dd::marker {
+  content: none;
+}
+
+dd:before {
+  content: "+";
+  margin-right: 15px;
+  font-weight: bolder;
 }
 
 li::marker {
